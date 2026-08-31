@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: traefik/whoami:v1.11
+          image: httpd:2.4
           ports:
             - containerPort: 80
           envFrom:
