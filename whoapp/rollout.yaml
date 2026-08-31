@@ -19,9 +19,9 @@ spec:
     spec:
       containers:
         - name: hello-app
-          image: traefik/whoami:v1.12
+          image: traefik/whoami:v1.13
           args:
-            - --name=GREEN-V1
+            - --name=GREEN-v1.13
           ports:
             - containerPort: 80
 
