@@ -11,6 +11,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: hello-app
+                name: hello-app-active
                 port:
                   number: 80
