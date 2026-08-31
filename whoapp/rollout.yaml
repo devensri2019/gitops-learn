@@ -21,7 +21,7 @@ spec:
         - name: hello-app
           image: traefik/whoami:v1.11
           args:
-            - --name=canary-v1
+            - --name=canary-v2
           ports:
             - containerPort: 80
 
