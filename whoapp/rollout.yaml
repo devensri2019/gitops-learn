@@ -30,15 +30,15 @@ spec:
                 name: app-secret
 
   strategy:
-  canary:
-    stableService: hello-app-active
-    canaryService: hello-app-preview
-    steps:
-      - setWeight: 25
-      - pause: {}
-      - setWeight: 50
-      - pause: 10s
-      - setWeight: 75
-      - pause: 5s
-      - setWeight: 100
-    
+    canary:
+      stableService: hello-app-active
+      canaryService: hello-app-preview
+      steps:
+        - setWeight: 25
+        - pause: {}
+        - setWeight: 50
+        - pause: 10s
+        - setWeight: 75
+        - pause: 5s
+        - setWeight: 100
+      
