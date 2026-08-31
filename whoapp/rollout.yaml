@@ -21,7 +21,7 @@ spec:
         - name: hello-app
           image: traefik/whoami:v1.12
           args:
-            - --name=GREEN-V2
+            - --name=GREEN-V3
           ports:
             - containerPort: 80
 
