@@ -17,3 +17,6 @@ spec:
           image: traefik/whoami:v1.11
           ports:
             - containerPort: 80
+          envFrom:
+          - secretRef:
+              name: app-secret
