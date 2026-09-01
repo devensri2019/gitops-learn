@@ -5,7 +5,7 @@ metadata:
   namespace: whoapp
 
 spec:
-  replicas: 0
+  replicas: 10
 
   selector:
     matchLabels:
